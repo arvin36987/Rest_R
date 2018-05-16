@@ -5,10 +5,10 @@ from multiprocessing import Pool
 import requests
 import re
 import time
-import win_unicode_console
+#import win_unicode_console
 
 def get_all_reviews(all_rest_urls):
-    win_unicode_console.enable()
+    #win_unicode_console.enable()
     start_time = time.time()
 
     with Pool(35) as p:
@@ -52,7 +52,7 @@ def crawl_pages(all_restaraunts_init_data):
     review_name_text.append(all_restaraunts_init_data[0])
     review_name_text.append(reviews_in_page)
     review_name_text.append(base_url)
-    # 
+    #
     # print(review_name_text[0],review_name_text[2])
     return review_name_text
 
