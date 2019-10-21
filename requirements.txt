@@ -23,7 +23,7 @@ joblib==0.11
 jsonpointer==1.14
 MarkupSafe==1.0
 mysqlclient==1.3.12
-nltk==3.3
+nltk==3.4.5
 post==1.0.1
 public==1.0.2
 pytz==2018.4
