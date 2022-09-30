@@ -19,7 +19,7 @@ gunicorn==19.8.1
 idna==2.6
 itsdangerous==0.24
 Jinja2==2.10
-joblib==0.11
+joblib==1.2.0
 jsonpointer==1.14
 MarkupSafe==1.0
 mysqlclient==1.3.12
